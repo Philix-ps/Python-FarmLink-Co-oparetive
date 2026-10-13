@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Membership | FarmLink</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="common.js" defer></script>
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+  <section class="page-banner">
+    <h2>FarmLink Membership</h2>
+    <p>Join a community of farmers working together.</p>
+  </section>
+
+  <section class="section">
+    <h2>Why Become a Member?</h2>
+    <p>
+      Membership in an agricultural cooperative
+      can provide opportunities for farmers to
+      collaborate, exchange knowledge, and
+      benefit from collective activities.
+    </p>
+
+    <div class="card-grid">
+      <article class="card">
+        <h3>Shared Resources</h3>
+        <p>Opportunities to access resources
+        through cooperative arrangements.</p>
+      </article>
+
+      <article class="card">
+        <h3>Knowledge Sharing</h3>
+        <p>Learning from other farmers and
+        agricultural training activities.</p>
+      </article>
+
+      <article class="card">
+        <h3>Market Opportunities</h3>
+        <p>Exploring collective marketing
+        and potential buyer connections.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Proposed Membership Process</h2>
+    <ol class="content-list">
+      <li>Learn about the cooperative.</li>
+      <li>Review membership requirements.</li>
+      <li>Complete a membership application.</li>
+      <li>Submit the application for review.</li>
+      <li>Receive confirmation of membership.</li>
+    </ol>
+    <p>
+      Note: Actual membership requirements,
+      fees, and approval procedures must be
+      confirmed by FarmLink management.
+    </p>
+  </section>
+
+  <section class="section form-section">
+    <h2>Membership Interest Form</h2>
+    <p>This is a demonstration form. It does
+    not submit or store personal information.</p>
+
+    <form onsubmit="event.preventDefault();
+      alert('Demo only: registration is not connected yet.');">
+
+      <label for="member-name">Full Name</label>
+      <input id="member-name" type="text" required>
+      <br>
+
+      <label for="member-email">Email Address</label>
+      <input id="member-email" type="email" required>
+      <br>
+
+      <label for="member-location">District / Location</label>
+      <input id="member-location" type="text" required>
+      <br>
+
+      <label for="farming-type">Type of Farming</label>
+      <select id="farming-type" required>
+        <option value="">Select farming type</option>
+        <option>Crop Farming</option>
+        <option>Livestock Farming</option>
+        <option>Mixed Farming</option>
+      </select>
+      <br>
+
+      <button type="submit">Register Interest</button>
+    </form>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+</body>
+</html>
